@@ -50,8 +50,29 @@ h2 {
     margin-bottom: 5px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 
 ul li {
     margin-bottom: 5px;
 }
-.summary
+.summary p, education p {
+    font-size: 1em;
+    color: #666;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    background-color: #eee;
+    margin-right: 10px;
+    padding: 5px 10 px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
